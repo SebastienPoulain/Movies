@@ -1,0 +1,13 @@
+.search__input {
+  width: 35%;
+  height: 20%;
+  border-radius: 25px;
+  font-size: 2.5vh;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.search > form {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,66 @@
+.header {
+  color: white;
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.header::-webkit-scrollbar {
+  display: none;
+}
+
+.header > img {
+  object-fit: contain;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.header__icon--active > a > p,
+.header__info {
+  display: inline !important;
+}
+
+.header__icon:hover > a > p,
+.header__info {
+  display: inline;
+}
+
+.header__icon > a > p,
+.header__info {
+  display: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: small;
+}
+
+.header__icon > a > .MuiSvgIcon-root,
+.header__info > .MuiSvgIcon-root {
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__icon > a,
+.header__info {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  cursor: pointer;
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.header__infoIcon {
+  display: none;
+}
